@@ -21,6 +21,14 @@
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
+@media screen and (max-width: 425px) {
+    .infoBox__cases {
+      font-size: 5vw;
+    }
+    .infoBox__title{
+        font-size: 4vw !important;
+    }
+  }
 .infoBox__total{
     color: #6c757d;
     font-weight: 700 !important;
